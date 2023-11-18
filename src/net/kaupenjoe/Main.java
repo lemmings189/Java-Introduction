@@ -13,9 +13,9 @@ public class Main {
         // || (OR)
         // !  (NOT / NEGATION)
 
-        boolean superFan = likedThisVideo && commented; // FALSE, because commented is NOT True
+        boolean superFan = likedThisVideo && commented; // FALSE, because commented is NOT true
         boolean fan = likedThisVideo || commented; // True, because ONE of them is true
-        boolean hater = !fan; // TRUE, because we negate superFan
+        boolean hater = !fan; // TRUE, because we negate fan
         boolean superHater = hater && dislikedThisVideo;
 
         superHater = !(likedThisVideo || commented) && dislikedThisVideo;
